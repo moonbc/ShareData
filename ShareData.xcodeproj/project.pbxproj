@@ -14,6 +14,7 @@
 		670B1B8021168C3F003CAB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670B1B7E21168C3F003CAB29 /* LaunchScreen.storyboard */; };
 		670B1B8B21168C3F003CAB29 /* ShareDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B1B8A21168C3F003CAB29 /* ShareDataTests.swift */; };
 		670B1B9621168C3F003CAB29 /* ShareDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B1B9521168C3F003CAB29 /* ShareDataUITests.swift */; };
+		670B1BA42116908D003CAB29 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B1BA32116908D003CAB29 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		670B1B9121168C3F003CAB29 /* ShareDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		670B1B9521168C3F003CAB29 /* ShareDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataUITests.swift; sourceTree = "<group>"; };
 		670B1B9721168C3F003CAB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670B1BA32116908D003CAB29 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				670B1B7C21168C3F003CAB29 /* Assets.xcassets */,
 				670B1B7E21168C3F003CAB29 /* LaunchScreen.storyboard */,
 				670B1B8121168C3F003CAB29 /* Info.plist */,
+				670B1BA32116908D003CAB29 /* InputViewController.swift */,
 			);
 			path = ShareData;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670B1BA42116908D003CAB29 /* InputViewController.swift in Sources */,
 				670B1B7821168C3E003CAB29 /* ViewController.swift in Sources */,
 				670B1B7621168C3E003CAB29 /* AppDelegate.swift in Sources */,
 			);

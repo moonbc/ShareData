@@ -12,7 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    //앱 내의 모든곳에서 사용할 수 있는 변수 생성
+    //앱이 새로 시작할 때 마다 이 문장은 수행됩니다.
+    
+    var msg : String = "공유 데이터"
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
